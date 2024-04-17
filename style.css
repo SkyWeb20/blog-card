@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0);
+    width: 370px;
+}
+
+.header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#svgCanvas {
+    width: 97%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 24px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.learning {
+    position: absolute;
+    top: -20px;
+    left: 19%;
+    transform: translateX(-50%);
+    background-color: #ffdd00;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.published {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background-image: url('img/image-avatar.webp');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.name {
+    font-weight: bold;
+}
